@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Gerstner';
+    src: url('font/Gerstner\ Programm\ Medium.otf');
+}
+
+.navigation {
+    top: 0.15rem;
+    left: 0.6rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.navbackground {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2.1rem;
+    background-color: black;
+}
+
+
+#h1 {
+    font-family: Gerstner;
+    font-size: 1.52rem;
+    line-height: 1.65rem;
+    letter-spacing: -0.001rem;
+    color: white;
+}
+
+#h2 {
+    font-family: Gerstner;
+    font-size: 1.52rem;
+    line-height: 1.65rem;
+    letter-spacing: -0.001rem;
+    text-decoration: underline;
+    color: white;
+}
+
+#bodycopy {
+    font-family: Gerstner;
+    font-size: 1.52rem;
+    line-height: 1.65rem;
+    letter-spacing: -0.001rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.navbox {
+    float: left;
+    padding-right: 8rem;
+}
+
+.content {
+    width: 100%;
+    padding: 0rem;
+}
+
+.project {
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0.6rem;
+    width: 55%;
+
+}
+
+img {
+    width: 100%;
+    padding-bottom: 0.35rem;
+}
